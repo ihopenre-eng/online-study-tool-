@@ -1,0 +1,32 @@
+{
+  "name": "point-desktop",
+  "version": "0.4.0",
+  "description": "화면 위에 펜, 형광펜, 레이저를 표시하는 Windows 주석 도구",
+  "author": "Point",
+  "private": true,
+  "main": "main.cjs",
+  "build": {
+    "appId": "com.point.annotation",
+    "productName": "Point",
+    "electronVersion": "43.1.0",
+    "asar": true,
+    "directories": {
+      "output": "../release-desktop"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "renderer/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "artifactName": "Point-${version}-portable.${ext}"
+    }
+  }
+}
