@@ -2,6 +2,9 @@
 
 브라우저 없이 실행되는 Windows x64 데스크톱 오버레이입니다. 투명한 항상 위 창에서 펜·형광펜·레이저·지우개를 사용할 수 있습니다.
 
+<img width="990" height="122" alt="image" src="https://github.com/user-attachments/assets/6bd74cce-410c-446f-b103-5bbf7274cc31" />
+
+
 ## 바로 실행
 
 `Point-win-x64\Point.exe`를 실행합니다. 설치는 필요하지 않습니다.
@@ -13,7 +16,7 @@
 ## 전역 단축키
 
 | 단축키 | 기능 |
-| --- | --- |
+| --- | --- |                                         
 | `Ctrl + Shift + A` | 오버레이 표시/숨김 |
 | `Ctrl + Shift + V` | 포인터·클릭 통과 |
 | `Ctrl + Shift + P` | 펜 |
@@ -21,6 +24,12 @@
 | `Ctrl + Shift + L` | 레이저 |
 | `Ctrl + Shift + E` | 지우개 |
 | `Ctrl + Shift + X` | 모든 주석 지우기 |
+
+## 이미지
+<img width="363" height="101" alt="image" src="https://github.com/user-attachments/assets/013e08c1-51de-4e28-87d6-3dda497a1997" />
+<img width="986" height="533" alt="image" src="https://github.com/user-attachments/assets/a0f32163-16bd-4b78-86b2-a6fcf7de4311" />
+
+
 
 ## 개발·빌드
 
