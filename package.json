@@ -1,7 +1,15 @@
 {
-  "name": "point-annotation-toolbar",
+  "name": "@ihopenre-eng/point-annotation-toolbar",
   "version": "0.4.0",
-  "private": true,
+  "description": "Windows 화면 주석 도구 — 투명 오버레이에서 펜·형광펜·레이저·지우개를 쓰는 Electron 데스크톱 앱",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihopenre-eng/online-study-tool-.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "electron/main.cjs",
   "engines": {
     "node": ">=22.13.0"
